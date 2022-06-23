@@ -1,0 +1,56 @@
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #fff;
+}
+
+.Personagens{
+    width: 6vw;
+    height: 18vh;
+    background-repeat: repeat;
+    background-size: cover;
+    background-image: url("CapivaraTeste.jpeg");
+    position:absolute;
+}
+
+#MedidorPerri{
+    position : absolute;
+    left:5vw;
+    bottom : 5vh;
+    border: 2px solid #000;
+    width:90vw;
+    height: 2vh;
+    background-color: #fff;
+}
+
+#BarraVidaPerri{
+    width:90vw;
+    height: 2vh;
+    background-color: blue;
+}
+
+.MandiocaSimplesEsquerda{
+    width: 3vw;
+    height: 3vw;
+    background-image: url("TiroMandiocaSimples.gif");
+    background-repeat: repeat;
+    background-size: cover;
+    position:absolute;
+
+}
+
+.MandiocaSimplesDireita{
+    width: 3vw;
+    height: 3vw;
+    background-image: url("TiroMandiocaSimples.gif");
+    background-repeat: repeat;
+    background-size: cover;
+    position:absolute;
+
+}
+
+.nomevil{
+    position: absolute;
+    bottom:6vh;
+    left:5vw;
+}
